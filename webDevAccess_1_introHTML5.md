@@ -88,7 +88,7 @@ If the server can't fulfill the request it will send back files with server resp
 
 The DOM is a tree like structure.
 
-[![DOM](https://www.w3schools.com/js/pic_htmltree.gif)]
+![DOM](https://www.w3schools.com/js/pic_htmltree.gif)
 
 > DOM and HTML5
 
