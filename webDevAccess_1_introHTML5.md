@@ -99,16 +99,16 @@ Computer scientists love trees (mathematical kind) because you can test them.
 > Three parts of a well-formed document
 
 1. Doctype
-1.1. version of HTML that you will be using
+  1.1. version of HTML that you will be using
 2. Head
-2.1 Metadata
+  2.1 Metadata
 3. Body
-3.1 Displayable content
+  3.1 Displayable content
 
 > Doctype
 
 - HTML5
-    - <!DOCTYPE html>
+    - `<!DOCTYPE html>`
 - Previous versions dictated backwards compatibility
 
 > Head
