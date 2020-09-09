@@ -5,11 +5,11 @@
 > Notes from the course
 
 This course program has 5 courses worth of study material
-  - course 1 - intro to HMTL5
-  - course 2 - intro to CSS3
-  - course 3 - interactivity with javascript
-  - course 4 - advanced styling with responsive design
-  - course 5 - web design capstone
+- course 1 - intro to HMTL5
+- course 2 - intro to CSS3
+- course 3 - interactivity with javascript
+- course 4 - advanced styling with responsive design
+- course 5 - web design capstone
 
 ## Course 1 - Introduction to HTML 5
 ### Week I
@@ -24,7 +24,6 @@ Groups that "run" the Internet or the Web:
 - The Web Accessibility Initiative (WAI)
 
 2005 - 2008 was the era where HTML files were accompanied with CSS files as a new standard.
-
 
 | Year | Tech |
 | --- | --- |
@@ -98,17 +97,17 @@ Computer scientists love trees (mathematical kind) because you can test them.
 
 > Three parts of a well-formed document
 
-1. Doctype
-  1.1. version of HTML that you will be using
-2. Head
-  2.1 Metadata
-3. Body
-  3.1 Displayable content
+- Doctype
+  - version of HTML that you will be using
+- Head
+  - Metadata
+- Body
+  - Displayable content
 
 > Doctype
 
 - HTML5
-    - `<!DOCTYPE html>`
+  - `<!DOCTYPE html>`
 - Previous versions dictated backwards compatibility
 
 > Head
@@ -134,7 +133,7 @@ Computer scientists love trees (mathematical kind) because you can test them.
 
 #### 2. HTML elements
 
-Tags have a beginning and an end. Some tags have self closing tags like <img /> and also attributes like src, alt etc.
+Tags have a beginning and an end. Some tags have self closing tags like `<img />` and also attributes like src, alt etc.
 
 ##### HTML5 tags and syntax
 ###### .
@@ -166,23 +165,23 @@ One of the most important attributes of an element is its display. Two most comm
 > More Tags
 
 - ordered list
-    <ol>
-    <li></li>
-    </ol>
+    `<ol>`
+    `<li></li>`
+    `</ol>`
 - unordered list
-    <ul>
-    <li></li>
-    </ul>
+    `<ul>`
+    `<li></li>`
+    `</ul>`
 
 - line break
-    <br />
+    `<br />`
     - line breaks in source are ignore by browser unless there's a <br> tag
 
 > Images
 
 - Images (inline)
-    <img src="picturefile.jpg" alt="aPic">
-    <img> tag is taking attributes like src, alt, title, class, id etc.
+    `<img src="picturefile.jpg" alt="aPic">`
+    `<img>` tag is taking attributes like src, alt, title, class, id etc.
 
 > More attributes
 
@@ -200,9 +199,9 @@ One of the most important attributes of an element is its display. Two most comm
 
 > special Entities
 
-- < : &lt;
-- \> : &gt;
-- & : &amp;
+- `< : &lt;`
+- `> : &gt;`
+- `& : &amp;`
 
 ##### Semantic tags
 ###### .
@@ -210,32 +209,32 @@ One of the most important attributes of an element is its display. Two most comm
 
 - the most important in design is to think about the page design/layout before you start to code.
 - once there was just a div to group things together and make a page layout
-    - <div class="header"> ...
-    - <div class="section"> ...
-    - <div class="footer"> ...
+    - `<div class="header">` ...
+    - `<div class="section">` ...
+    - `<div class="footer">` ...
 
 In HTML5 there are more semantic tags to make up a layout of page content.
 
-- <header></header>
+- `<header></header>`
     this is good for many types and sizes of screen readers where semantic tags have a special meaning
-- <nav></nav>
+- `<nav></nav>`
     - links of your site for navigating the page
-    - often found in the <header> tag
-    - there's a debate whether the <ul> should be in the <nav> tag however links should be definitely inside <nav> tag
-    <nav>
-    <ul>
-    <li><a href="">Home</a></li>
-    <li><a href="">About</a></li>
-    </ul>
-    </nav>
+    - often found in the `<header>` tag
+    - there's a debate whether the `<ul>` should be in the `<nav>` tag however links should be definitely inside `<nav>` tag
+    `<nav>`
+    `<ul>`
+    `<li><a href="">Home</a></li>`
+    `<li><a href="">About</a></li>`
+    `</ul>`
+    `</nav>`
 
-- <figure>
-    - more semantics than <img> tag has
+- `<figure>`
+    - more semantics than `<img>` tag has
     - can include caption and many multimedia resources
-    <figure>
-    <img src="" alt="" />
-    <figcaption> A sunset over lake Pukaki</figcaption>
-    </figure>
+    `<figure>`
+    `<img src="" alt="" />`
+    `<figcaption> A sunset over lake Pukaki</figcaption>`
+    `</figure>`
 
 - there are way more HTML5 tags which have many kinds of attributes
     - structural elements
@@ -277,8 +276,8 @@ There are many kinds of file types supported like JPEG, GIF, PNG. SVG and BMP ar
 > Favicons
 
 - can put image/logo/icon next to the title of your page (in the tab) 
-- must go in <head> section
-    - <link rel="icon" type="image/png" href="img/logo.png" />
+- must go in `<head>` section
+    - `<link rel="icon" type="image/png" href="img/logo.png" />`
 
 > Alternative text attributes
 
@@ -296,16 +295,16 @@ There are many kinds of file types supported like JPEG, GIF, PNG. SVG and BMP ar
 
 > Font-awesome
 
-- good to use however also important to put "aria-label='label name'" attribute inside <a> tag to reference an otherwise empty link, because <i> tag which the Fontawesome uses is not a proper text 
+- good to use however also important to put "aria-label='label name'" attribute inside `<a>` tag to reference an otherwise empty link, because `<i>` tag which the Fontawesome uses is not a proper text 
 
 #### 4. Hyperlinks
 
 ##### Anchor links
 ###### .
 
-<a href="asdad">A great link</a>
+`<a href="asdad">A great link</a>`
 
-- tha <a> tag stands for anchor
+- tha `<a>` tag stands for anchor
 - needs a hyper-reference (href)
     - href: reference to location of new content
 - needs content:
@@ -320,7 +319,7 @@ There are many kinds of file types supported like JPEG, GIF, PNG. SVG and BMP ar
 - Internal links
     - local page links connected by id tag and hashtag
 - Graphical links
-    - can put <img> tag inside anchor tag
+    - can put `<img>` tag inside anchor tag
 
 > Targets
 
@@ -334,17 +333,17 @@ There are many kinds of file types supported like JPEG, GIF, PNG. SVG and BMP ar
 ##### Video and audio on webpage
 ###### .
 
-> Video element <video>
+> Video element `<video>`
 
-- video tag uses src attr or embedded <source>
+- video tag uses src attr or embedded `<source>`
 - common attributes:
     - height, width
     - autoplay
     - loop
     - controls
-- text inside <video>..</video> is displayed if browser can not support the tag
+- text inside `<video>..</video>` is displayed if browser can not support the tag
 
-> Audio element <audio>
+> Audio element `<audio>`
 
 - Audio tag uses a src attribute to link to audio file, typically .mp3 or .wav
 - common attributes:
@@ -387,10 +386,10 @@ Tables should only be used for tabular data.
 
 > The tags
 
-- <table> - the container
-- <tr> - the rows
-- <th> - table heading
-- <td> - columns or cells of table
+- `<table>` - the container
+- `<tr>` - the rows
+- `<th>` - table heading
+- `<td>` - columns or cells of table
 
 > Spanning the rows or columns
 
@@ -398,8 +397,8 @@ Tables should only be used for tabular data.
 
 > Captions
 
-- possible to use a heading <h2>, <h3> etc but it doesn't provide semantics
-- better to use <caption>
+- possible to use a heading `<h2>`, `<h3>` etc but it doesn't provide semantics
+- better to use `<caption>`
 
 #### 7. Useful tags
 
@@ -413,21 +412,21 @@ Tables should only be used for tabular data.
 
 > Block tags (display: block)
 
-- containers: <article>, <aside>, <section>, <main>, ...
-- <hr>
-- <address>
-- <blockquotes> - has `cite` attribute
-- <details> with <summary>
+- containers: `<article>, <aside>, <section>, <main>`, ...
+- `<hr>`
+- `<address>`
+- `<blockquotes>` - has `cite` attribute
+- `<details>` with `<summary>`
 
 > More tags with special or dynamic content or functionality
 
-- <button>
-- <meter> with attributes `min`, `max`, `value`
-- <progress>
-- <iframe>
-- <bdo> attribute `dir` (ltr or rtl)
+- `<button>`
+- `<meter>` with attributes `min`, `max`, `value`
+- `<progress>`
+- `<iframe>`
+- `<bdo>` attribute `dir` (ltr or rtl)
     - bi-directional orientation
-- <map> with <area> creates 'clickable element in image' but needs script
+- `<map>` with `<area>` creates 'clickable element in image' but needs script
 
 ### Week III
 ---
@@ -569,5 +568,5 @@ funkify.org
 
 - allows to host a website on github
 - when hosting a site in github need to create a repository with the same name as account name:
-  - if account name is rebane then repository name should be "rebane.github.io"
+    - if account name is rebane then repository name should be "rebane.github.io"
 - when uploading to github pages folder then under settings need to change source to master branch under Github pages.
