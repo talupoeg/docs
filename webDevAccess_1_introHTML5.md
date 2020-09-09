@@ -569,5 +569,5 @@ funkify.org
 
 - allows to host a website on github
 - when hosting a site in github need to create a repository with the same name as account name:
-    - if account name is rebane then repository name should be "rebane.github.io"
+  - if account name is rebane then repository name should be "rebane.github.io"
 - when uploading to github pages folder then under settings need to change source to master branch under Github pages.
