@@ -124,7 +124,252 @@ h1 {
 
 #### Colors
 
-asda
+> Color conventions
+
+- color names (blue, red, yello etc.) but should be avoided (browser differences)
+- Hexadecimal is common convention
+    - #0000FF, #FF0000, #FFFF00 (3 or 6 digits) - blue, red, yellow
+- RGB
+    - (0,0,1), (1,0,0), (1,1,0) - blue red, yellow
+- RGBA
+    - (0,0,1,.5) - 4th place is for alphatransparency
+
+Different monitors show colors differently
+
+> Accessibility
+
+Appropriate use of color is critical to web accessibility. Many people are visually impaired or color blind than are legally blind.
+
+> What is color contrast?
+
+- You intuitively know when something has poor contrast
+- there are tools that quantify the contrast between text and background
+    - wave.webaim.org
+    - webaim.org/resources/contrastchecker
+
+> Review
+
+- use web safe colors and use an accepted convention
+- test your site using a contrast checker
+
+#### Styling your text
+
+> Options
+
+- many ways to style your text:
+    - font (family, style, variant, size)
+    - color and background
+    - alignment
+    - line-height
+
+> font-family
+
+- font families are stues of text
+- examples
+    - helvetica, courier, comic sans ms
+
+```css
+body {
+    font-family: Arial;
+}
+
+h1 {
+    font-family: Courier, Impact, Arial
+}
+```
+
+> font-family considerations
+
+- some fonts are not as user-friendly, use sans-serif when possible
+
+> Custom fonts
+
+- to expand beyond "web-safe" fonts use @font-face
+
+```css
+@font-face {
+    font-family: mySpecialFont;
+    src: url('specialFont.ttf')
+}
+
+h1 {
+    font-family: mySpecialFont;
+}
+```
+
+> font-style
+
+- normal
+- italic
+- oblique
+
+> font-variant
+
+- normal
+- small-caps
+- etc.
+
+> font-size
+
+- xx-small, x-small, small, smaller, medium, larger, x-large, xx-large, larger ..
+- pixel sizes
+- pt (point size)
+- percentage (flexibility on different screen sizes)
+
+> color and background-color
+
+- color attribute is the color of the foreground (text)
+- the background-color is the color of the background
+
+> text-align
+
+- left
+- right
+- center
+- justify (spread out to use as much space as possible)
+
+> line-height
+
+- it doesn't affect font
+- adjusts the space between the lines of text
+
+```css
+h1 {
+    line-height: 50%;
+}
+
+h2 {
+    line-height: 150%
+}
+```
+
+#### Display and Visiblity part 1
+
+> Display is Key to Layout
+
+- every element is a box
+- display affects the layout of neighboring elements on page
+
+> Common display values
+
+```css
+p {
+    display: inline;
+}
+
+h6 {
+    display: block;
+}
+
+h6 {
+    display: inline-block;
+}
+
+h6 {
+    display: none;
+}
+```
+
+- inline
+    - sits next to other elements
+    - takes up "just enough" width and height
+- block
+    - forces line break
+    - default is taking up all horizontal width and "just enough" height
+    - rules can ser height and width
+- inline-block
+    - best of both (inline and block)
+    - same as inline so elements can be `next to each other` plus you can set `height` and `width`
+- none
+    - removed from page
+
+> Complementary properties of 'display'
+
+- float
+    - reposition elements tho the right of left
+    - elements are aware of one another and will not overlap
+    - values: `left`, `right`
+- clear
+    - used to keep floating elements away
+    - values: left, right, both
+        - left - nothing is floating to set element's left side
+        - both - nothing is floating to either side of the set element
+
+```css
+    p {
+        height: 300px;
+        width: 500px;
+        float: left;
+    }
+    
+    h4 {
+        clear: both;
+    }
+```
+
+#### Display and Visiblity part 2
+
+Sometimes elements get hidden behind other elements or screen borders. It's possible to change the access to those elements.
+
+> Element overflow
+
+Four values of the `overflow`:
+
+- visible
+    - can cause text to show up "on top" of other elements
+- hidden
+    - hides anything that goes beyond bounding box
+    - this may cause problems since if the user increases font size they may not be able to see contens
+- scroll
+    - gives horizontal and vertical scrollbars
+- auto
+    - adds scrollbars as needed
+
+##### Other display values
+New display properties are available to most recent browsers.
+
+- Table
+- Grid
+- Flexbox
+
+> `display: table`
+
+```css
+
+span .table {
+    display: table;
+}
+
+span .el {
+    display: table-cell;
+}
+
+```
+
+> `visibility: hidden`
+
+- specifies whether or not element is visible
+- element isn't removed from html like with `display: none`
+
+> Review
+
+- `display` attribute is just one tool for positioning elements on the page
+- early design will make coding easier
+- utilize tools to see different options (inspect element in browser)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
