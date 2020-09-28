@@ -1,8 +1,8 @@
 # Introduction to CSS - WEEK 4
 
-> Notes from the course
-
 [![HTML and CSS study resource](https://learn.shayhowe.com/assets/images/book/book-sm.png "Learn to Code by Shay Howe")](https://learn.shayhowe.com/html-css/)
+
+This online book on the picture is a side resource and has more detailed descriptions and methods to learn html and css.
 
 This course has 4 weeks of study material.
 
