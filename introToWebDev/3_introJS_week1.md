@@ -4,7 +4,7 @@ Introduction to use javascript with web pages.
 
 [![Eloquent Javascript](https://eloquentjavascript.net/img/cover.jpg "Eloquent Javascript")](https://eloquentjavascript.net/)
 
-> Notes from the course
+> This online book on the picture is a side resource and has more detailed descriptions and methods to learn JS.
 
 ## Week I
 
