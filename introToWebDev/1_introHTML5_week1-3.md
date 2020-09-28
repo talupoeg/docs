@@ -2,7 +2,7 @@
 
 [![HTML&CSS](https://learn.shayhowe.com/assets/images/book/book-sm.png)](https://learn.shayhowe.com/html-css/)
 
-> Notes from the course
+This online book on the picture is a side resource and has more detailed descriptions and methods to learn html and css.
 
 This course program has 5 courses worth of study material
 - course 1 - intro to HMTL5
